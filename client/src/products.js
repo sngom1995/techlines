@@ -1,4 +1,4 @@
-const products = [
+export const products = [
   {
     _id: "621235e59540445b3sdfe9s0",
     name: "Samsung Galaxy Z Flip4 5G",
