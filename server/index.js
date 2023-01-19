@@ -4,9 +4,9 @@ import connectToMongoDB from "./database.js";
 import productRouter from "./routes/ProductRoute.js";
 import express from "express";
 
-const port = process.env.PORT || 3000;
 dotenv.config();
 connectToMongoDB();
+const port = process.env.PORT || 6000;
 
 const app = express();
 

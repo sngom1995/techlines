@@ -64,7 +64,7 @@ const ProductCard = ({ product }) => {
       shadow="lg"
       position="relative"
     >
-      {product.isNew && (
+      {product.productIsNew && (
         <Circle
           size="10px"
           position="absolute"
@@ -95,7 +95,7 @@ const ProductCard = ({ product }) => {
             Sold Out
           </Badge>
         )}
-        {product.isNew && (
+        {product.productIsNew && (
           <Badge rounded="full" px="2" fontSize="0.8em" colorScheme="green">
             New
           </Badge>
